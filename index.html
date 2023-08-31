@@ -19,3 +19,42 @@
   </article>
  </body>
 </html>
+<html>
+  <head>
+    head要素以下に取ることができる要素群。
+    title要素などをはじめとしたそのHTML文書自身に関する情報からなる。
+  </head>
+  <body>
+    body要素以下に取ることができる要素群。
+    HTML文書の本文となる情報を記述する。
+  </body>
+</html>
+<form action="http://...">
+  <fieldset>
+    <legend>名前</legend>
+    <label>姓:<input type="text"></label>
+    <label>名:<input type="text"></label>
+  </fieldset>
+  <fieldset>
+    <legend>住所</legend>
+    <label>県:<input type="text"></label>
+    <label>市:<input type="text"></label>
+  </fieldset>
+</form>
+<table summary="取り扱い商品の一覧表。商品ごとに価格・備考を表記する。" border="1">
+  <capthion>商品一覧</capthion>
+  <colgroup class="head" span="1"></colgroup>
+  <colgroup class="data" span="2"></colgroup>
+  <thead>
+    <tr>
+      <th id="t1">商品名</th>
+      <th id="t2" abbr="価格">価格（円）</th>
+      <th id="t3" abbr="備考">備考（産地・在庫など）</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td headers="t1">りんご</td><td headers="t2">100</td><td headers="t3">青森産</td></tr>
+    <tr><td headers="t1">みかん</td><td headers="t2">150</td><td headers="t3">在庫無し</td></tr>
+  </tbody>
+</table>
+<!-- ここにコメントを書く -->
