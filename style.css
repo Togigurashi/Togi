@@ -4,7 +4,7 @@ overflow-x: hidden;
 }
 [/css]
 .area {
-  width: 500px;
+  width: 600px;
   margin: auto;
   flex-wrap: wrap;
   display: flex;
